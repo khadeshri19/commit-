@@ -1,0 +1,107 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-main: #070a12;
+    --bg-surface: #0b0f1a;
+    --bg-surface-elevated: #101626;
+    --border-dim: #1e293b;
+    --text-main: #e2e8f0;
+    --accent-color: #38bdf8;
+  }
+
+  .theme-matrix {
+    --bg-main: #030a04;
+    --bg-surface: #061308;
+    --bg-surface-elevated: #0d2610;
+    --border-dim: #143818;
+    --text-main: #bbf7d0;
+    --accent-color: #22c55e;
+  }
+
+  .theme-amber {
+    --bg-main: #0c0803;
+    --bg-surface: #171007;
+    --bg-surface-elevated: #291d0e;
+    --border-dim: #3d280d;
+    --text-main: #fde68a;
+    --accent-color: #f59e0b;
+  }
+
+  .theme-cyberpunk {
+    --bg-main: #0a0614;
+    --bg-surface: #120b24;
+    --bg-surface-elevated: #1f123d;
+    --border-dim: #2c1a59;
+    --text-main: #e9d5ff;
+    --accent-color: #c084fc;
+  }
+
+  body {
+    background-color: var(--bg-main);
+    color: var(--text-main);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    overflow-x: hidden;
+  }
+
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  }
+}
+
+/* CRT Scanlines Effect */
+.crt-scanlines::before {
+  content: " ";
+  display: block;
+  position: fixed;
+  top: 0; left: 0; bottom: 0; right: 0;
+  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.03), rgba(0, 255, 0, 0.01), rgba(0, 0, 255, 0.03));
+  z-index: 999;
+  background-size: 100% 3px, 6px 100%;
+  pointer-events: none;
+  opacity: 0.85;
+}
+
+/* Custom terminal scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #070a12;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
+
+/* Blinking terminal cursor */
+@keyframes blink {
+  0%, 49% { opacity: 1; }
+  50%, 100% { opacity: 0; }
+}
+
+.terminal-cursor {
+  display: inline-block;
+  width: 8px;
+  height: 1.1em;
+  background-color: currentColor;
+  vertical-align: text-bottom;
+  animation: blink 1s infinite;
+  margin-left: 2px;
+}
+
+/* Diff lines */
+.diff-line-add {
+  background-color: rgba(46, 160, 67, 0.15);
+  color: #3fb950;
+  border-left: 3px solid #3fb950;
+}
+.diff-line-del {
+  background-color: rgba(248, 81, 73, 0.15);
+  color: #f85149;
+  border-left: 3px solid #f85149;
+}

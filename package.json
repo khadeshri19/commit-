@@ -1,0 +1,12 @@
+{
+  "name": "commit-tracker-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npm run start:server & npm run start:frontend",
+    "start:server": "cd server && npm run dev",
+    "start:frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build",
+    "test:api": "cd server && node test_api.mjs"
+  }
+}

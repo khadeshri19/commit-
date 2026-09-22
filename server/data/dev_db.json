@@ -1,0 +1,768 @@
+{
+  "users": [
+    {
+      "id": "user_demo_1",
+      "email": "demo@commit.dev",
+      "username": "octodev",
+      "passwordHash": "$2a$10$L/gXUQxiU4ru.6ZsCxdFkukr/a1Zoi/Y5DKR3yGYIoD4lIQzxOm3S",
+      "targetRole": "Senior Full Stack & Systems Engineer",
+      "sprintStartDate": "2026-09-07",
+      "createdAt": "2026-09-21T18:59:06.437Z"
+    },
+    {
+      "id": "user_1790018214936_1hmwb",
+      "email": "khadeshrikant1912@gmail.com",
+      "username": "shrikant",
+      "passwordHash": "$2a$10$e68OsIkUAY2KuwXXAbs2E.HLaZ3SgVT8h6oUrPoMFmjdPWs7a6H2W",
+      "targetRole": "Full Stack & Distributed Systems Engineer",
+      "sprintStartDate": "2026-09-21",
+      "createdAt": "2026-09-21T19:16:54.936Z"
+    }
+  ],
+  "commits": [
+    {
+      "id": "commit_1790049829346_44e0c0c",
+      "userId": "user_demo_1",
+      "commitHash": "44e0c0c",
+      "commitMessage": "feat(dsa): test commit - mastered sliding window and monotonic stack",
+      "tracks": [
+        "DSA",
+        "BACKEND"
+      ],
+      "minutesSpent": 120,
+      "status": "MERGED",
+      "date": "2026-09-22",
+      "createdAt": "2026-09-22T04:03:49.346Z"
+    },
+    {
+      "id": "commit_1790018444693_8c4096f",
+      "userId": "user_demo_1",
+      "commitHash": "8c4096f",
+      "commitMessage": "feat(dsa): test commit - mastered sliding window and monotonic stack",
+      "tracks": [
+        "DSA",
+        "BACKEND"
+      ],
+      "minutesSpent": 120,
+      "status": "MERGED",
+      "date": "2026-09-21",
+      "createdAt": "2026-09-21T19:20:44.693Z"
+    },
+    {
+      "id": "commit_1790018402879_930e32b",
+      "userId": "user_demo_1",
+      "commitHash": "930e32b",
+      "commitMessage": "feat(dsa): test commit - mastered sliding window and monotonic stack",
+      "tracks": [
+        "DSA",
+        "BACKEND"
+      ],
+      "minutesSpent": 120,
+      "status": "MERGED",
+      "date": "2026-09-21",
+      "createdAt": "2026-09-21T19:20:02.879Z"
+    },
+    {
+      "id": "commit_1790017547133_c245200",
+      "userId": "user_demo_1",
+      "commitHash": "c245200",
+      "commitMessage": "feat(dsa): test commit - mastered sliding window and monotonic stack",
+      "tracks": [
+        "DSA",
+        "BACKEND"
+      ],
+      "minutesSpent": 120,
+      "status": "MERGED",
+      "date": "2026-09-21",
+      "createdAt": "2026-09-21T19:05:47.133Z"
+    },
+    {
+      "id": "commit_demo_13",
+      "userId": "user_demo_1",
+      "commitHash": "1eb9f8e",
+      "commitMessage": "feat(backend): implement spring boot jpa repo & connection pool benchmarks",
+      "tracks": [
+        "DSA",
+        "CS_FUNDAMENTALS"
+      ],
+      "minutesSpent": 131,
+      "status": "MERGED",
+      "date": "2026-09-08",
+      "createdAt": "2026-09-08T18:59:06.435Z"
+    },
+    {
+      "id": "commit_demo_12",
+      "userId": "user_demo_1",
+      "commitHash": "52f45cc",
+      "commitMessage": "refactor(dsa): solve two-pointer & monotonic stack pattern set [step 7]",
+      "tracks": [
+        "DSA",
+        "BACKEND"
+      ],
+      "minutesSpent": 114,
+      "status": "MERGED",
+      "date": "2026-09-09",
+      "createdAt": "2026-09-09T18:59:06.435Z"
+    },
+    {
+      "id": "commit_demo_11",
+      "userId": "user_demo_1",
+      "commitHash": "53dade3",
+      "commitMessage": "feat(backend): implement spring boot jpa repo & connection pool benchmarks",
+      "tracks": [
+        "BACKEND",
+        "SYSTEM_DESIGN"
+      ],
+      "minutesSpent": 97,
+      "status": "MERGED",
+      "date": "2026-09-10",
+      "createdAt": "2026-09-10T18:59:06.435Z"
+    },
+    {
+      "id": "commit_demo_10",
+      "userId": "user_demo_1",
+      "commitHash": "3aafcc7",
+      "commitMessage": "refactor(dsa): solve two-pointer & monotonic stack pattern set [step 6]",
+      "tracks": [
+        "DSA",
+        "CS_FUNDAMENTALS"
+      ],
+      "minutesSpent": 140,
+      "status": "MERGED",
+      "date": "2026-09-11",
+      "createdAt": "2026-09-11T18:59:06.435Z"
+    },
+    {
+      "id": "commit_demo_9",
+      "userId": "user_demo_1",
+      "commitHash": "4058325",
+      "commitMessage": "feat(backend): implement spring boot jpa repo & connection pool benchmarks",
+      "tracks": [
+        "DSA",
+        "BACKEND"
+      ],
+      "minutesSpent": 123,
+      "status": "MERGED",
+      "date": "2026-09-12",
+      "createdAt": "2026-09-12T18:59:06.435Z"
+    },
+    {
+      "id": "commit_demo_8",
+      "userId": "user_demo_1",
+      "commitHash": "7c998c0",
+      "commitMessage": "refactor(dsa): solve two-pointer & monotonic stack pattern set [step 5]",
+      "tracks": [
+        "BACKEND",
+        "SYSTEM_DESIGN"
+      ],
+      "minutesSpent": 106,
+      "status": "MERGED",
+      "date": "2026-09-13",
+      "createdAt": "2026-09-13T18:59:06.435Z"
+    },
+    {
+      "id": "commit_demo_7",
+      "userId": "user_demo_1",
+      "commitHash": "34b2021",
+      "commitMessage": "feat(backend): implement spring boot jpa repo & connection pool benchmarks",
+      "tracks": [
+        "DSA",
+        "CS_FUNDAMENTALS"
+      ],
+      "minutesSpent": 149,
+      "status": "MERGED",
+      "date": "2026-09-14",
+      "createdAt": "2026-09-14T18:59:06.435Z"
+    },
+    {
+      "id": "commit_demo_6",
+      "userId": "user_demo_1",
+      "commitHash": "4afdc60",
+      "commitMessage": "refactor(dsa): solve two-pointer & monotonic stack pattern set [step 4]",
+      "tracks": [
+        "DSA",
+        "BACKEND"
+      ],
+      "minutesSpent": 132,
+      "status": "MERGED",
+      "date": "2026-09-15",
+      "createdAt": "2026-09-15T18:59:06.435Z"
+    },
+    {
+      "id": "commit_demo_5",
+      "userId": "user_demo_1",
+      "commitHash": "974285d",
+      "commitMessage": "feat(backend): implement spring boot jpa repo & connection pool benchmarks",
+      "tracks": [
+        "BACKEND",
+        "SYSTEM_DESIGN"
+      ],
+      "minutesSpent": 115,
+      "status": "MERGED",
+      "date": "2026-09-16",
+      "createdAt": "2026-09-16T18:59:06.435Z"
+    },
+    {
+      "id": "commit_demo_4",
+      "userId": "user_demo_1",
+      "commitHash": "d1da641",
+      "commitMessage": "refactor(dsa): solve two-pointer & monotonic stack pattern set [step 3]",
+      "tracks": [
+        "DSA",
+        "CS_FUNDAMENTALS"
+      ],
+      "minutesSpent": 98,
+      "status": "MERGED",
+      "date": "2026-09-17",
+      "createdAt": "2026-09-17T18:59:06.435Z"
+    },
+    {
+      "id": "commit_demo_3",
+      "userId": "user_demo_1",
+      "commitHash": "e516d54",
+      "commitMessage": "feat(backend): implement spring boot jpa repo & connection pool benchmarks",
+      "tracks": [
+        "DSA",
+        "BACKEND"
+      ],
+      "minutesSpent": 141,
+      "status": "MERGED",
+      "date": "2026-09-18",
+      "createdAt": "2026-09-18T18:59:06.435Z"
+    },
+    {
+      "id": "commit_demo_2",
+      "userId": "user_demo_1",
+      "commitHash": "987faf5",
+      "commitMessage": "refactor(dsa): solve two-pointer & monotonic stack pattern set [step 2]",
+      "tracks": [
+        "BACKEND",
+        "SYSTEM_DESIGN"
+      ],
+      "minutesSpent": 124,
+      "status": "MERGED",
+      "date": "2026-09-19",
+      "createdAt": "2026-09-19T18:59:06.435Z"
+    },
+    {
+      "id": "commit_demo_1",
+      "userId": "user_demo_1",
+      "commitHash": "805001f",
+      "commitMessage": "feat(backend): implement spring boot jpa repo & connection pool benchmarks",
+      "tracks": [
+        "DSA",
+        "CS_FUNDAMENTALS"
+      ],
+      "minutesSpent": 107,
+      "status": "MERGED",
+      "date": "2026-09-20",
+      "createdAt": "2026-09-20T18:59:06.435Z"
+    },
+    {
+      "id": "commit_demo_0",
+      "userId": "user_demo_1",
+      "commitHash": "405386b",
+      "commitMessage": "feat(auth): implement jwt filter & scaffold striver dsa a2z integration",
+      "tracks": [
+        "DSA",
+        "BACKEND"
+      ],
+      "minutesSpent": 90,
+      "status": "MERGED",
+      "date": "2026-09-21",
+      "createdAt": "2026-09-21T18:59:06.435Z"
+    }
+  ],
+  "dsaProgress": {
+    "user_demo_1": {
+      "p1_1_1": {
+        "solved": true,
+        "flagged": false,
+        "notes": "Review time complexity bounds: O(1) for primitive arithmetic.",
+        "updatedAt": "2026-09-22T04:03:49.383Z",
+        "solvedAt": "2026-09-22T04:03:49.371Z"
+      },
+      "p1_1_2": {
+        "solved": true,
+        "flagged": false,
+        "notes": "",
+        "updatedAt": "2026-09-21T18:59:06.437Z"
+      },
+      "p1_1_3": {
+        "solved": true,
+        "flagged": false,
+        "notes": "",
+        "updatedAt": "2026-09-21T18:59:06.437Z"
+      },
+      "p1_1_4": {
+        "solved": true,
+        "flagged": true,
+        "notes": "",
+        "updatedAt": "2026-09-21T19:15:51.540Z"
+      },
+      "p1_2_1": {
+        "solved": true,
+        "flagged": false,
+        "notes": "",
+        "updatedAt": "2026-09-21T18:59:06.437Z"
+      },
+      "p1_2_2": {
+        "solved": true,
+        "flagged": false,
+        "notes": "",
+        "updatedAt": "2026-09-21T18:59:06.437Z"
+      },
+      "p1_3_1": {
+        "solved": true,
+        "flagged": false,
+        "notes": "",
+        "updatedAt": "2026-09-21T18:59:06.437Z"
+      },
+      "p1_3_2": {
+        "solved": true,
+        "flagged": false,
+        "notes": "",
+        "updatedAt": "2026-09-21T18:59:06.437Z"
+      },
+      "p1_4_1": {
+        "solved": true,
+        "flagged": false,
+        "notes": "",
+        "updatedAt": "2026-09-21T18:59:06.437Z"
+      },
+      "p1_4_6": {
+        "solved": true,
+        "flagged": true,
+        "notes": "",
+        "updatedAt": "2026-09-21T18:59:06.437Z"
+      },
+      "p2_1_1": {
+        "solved": true,
+        "flagged": false,
+        "notes": "",
+        "updatedAt": "2026-09-21T18:59:06.437Z"
+      },
+      "p2_1_2": {
+        "solved": true,
+        "flagged": false,
+        "notes": "",
+        "updatedAt": "2026-09-21T18:59:06.437Z"
+      },
+      "p2_2_1": {
+        "solved": true,
+        "flagged": true,
+        "notes": "",
+        "updatedAt": "2026-09-21T18:59:06.437Z"
+      },
+      "p3_1_1": {
+        "solved": true,
+        "flagged": false,
+        "notes": "",
+        "updatedAt": "2026-09-21T18:59:06.437Z"
+      },
+      "p3_1_2": {
+        "solved": true,
+        "flagged": false,
+        "notes": "",
+        "updatedAt": "2026-09-21T18:59:06.437Z"
+      },
+      "p3_1_4": {
+        "solved": true,
+        "flagged": false,
+        "notes": "",
+        "updatedAt": "2026-09-21T18:59:06.437Z"
+      },
+      "p3_2_1": {
+        "solved": true,
+        "flagged": false,
+        "notes": "",
+        "updatedAt": "2026-09-21T18:59:06.437Z"
+      },
+      "p3_2_2": {
+        "solved": true,
+        "flagged": false,
+        "notes": "",
+        "updatedAt": "2026-09-21T18:59:06.437Z"
+      },
+      "p3_2_4": {
+        "solved": true,
+        "flagged": true,
+        "notes": "Kadane's Algorithm: Reset sum to 0 if current running sum becomes negative. O(N) time, O(1) space.",
+        "updatedAt": "2026-09-21T18:59:06.437Z"
+      }
+    },
+    "user_1790018214936_1hmwb": {}
+  },
+  "roadmapMilestones": {
+    "user_demo_1": {
+      "m_w1_1": true,
+      "m_w1_2": true,
+      "m_w1_3": true,
+      "m_w1_4": true,
+      "m_w2_1": true,
+      "m_w2_2": true,
+      "m_w2_3": true,
+      "m_w3_1": false
+    },
+    "user_1790018214936_1hmwb": {}
+  },
+  "userResources": {
+    "user_demo_1": [
+      {
+        "id": "res_dsa_1",
+        "title": "Striver A2Z DSA Course - Complete Masterclass Playlist",
+        "channel": "take U forward",
+        "embedUrl": "https://www.youtube.com/embed/videoseries?list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_st8",
+        "track": "DSA",
+        "phaseTag": "Phase 1 - Foundations",
+        "description": "The official master playlist for Striver's A2Z DSA sheet covering Arrays, Trees, Graphs, and DP with intuition.",
+        "status": "in_progress",
+        "tags": [
+          "DSA",
+          "A2Z Sheet",
+          "Arrays",
+          "DP"
+        ]
+      },
+      {
+        "id": "res_sb_1",
+        "title": "Spring Boot 3 + Spring Security 6 with JWT Full Course",
+        "channel": "Amigoscode",
+        "embedUrl": "https://www.youtube.com/embed/KxqlJblhzfI",
+        "track": "BACKEND",
+        "phaseTag": "Phase 1 - Foundations",
+        "description": "In-depth guide to building production-ready Spring Boot 3 APIs with Spring Security 6, JWT filters, and PostgreSQL.",
+        "status": "not_started",
+        "tags": [
+          "Spring Boot",
+          "JWT",
+          "Security",
+          "Java 21"
+        ]
+      },
+      {
+        "id": "res_sb_2",
+        "title": "Spring Data JPA & Hibernate Masterclass",
+        "channel": "Java Brains",
+        "embedUrl": "https://www.youtube.com/embed/videoseries?list=PLqq-6Pq4lTTY5h_m8g8Vv_Xb_sO-l4s7H",
+        "track": "BACKEND",
+        "phaseTag": "Phase 2 - Core Data Structures",
+        "description": "Deep dive into JPA entity mappings, Lazy loading, N+1 query problem, transactions, and HikariCP connection pooling.",
+        "status": "not_started",
+        "tags": [
+          "Spring Data JPA",
+          "Hibernate",
+          "PostgreSQL",
+          "Transactions"
+        ]
+      },
+      {
+        "id": "res_node_1",
+        "title": "Node.js Event Loop, Worker Threads & Concurrency Internals",
+        "channel": "Hussein Nasser",
+        "embedUrl": "https://www.youtube.com/embed/8aGhZQkoFbQ",
+        "track": "CS_FUNDAMENTALS",
+        "phaseTag": "Phase 1 - Foundations",
+        "description": "Comprehensive architectural breakdown of the libuv event loop, phases (timers, I/O, check), and non-blocking I/O.",
+        "status": "watched",
+        "tags": [
+          "Node.js",
+          "Event Loop",
+          "Concurrency",
+          "Libuv"
+        ]
+      },
+      {
+        "id": "res_sd_1",
+        "title": "System Design for Beginners: Architecture & Scaling Fundamentals",
+        "channel": "ByteByteGo",
+        "embedUrl": "https://www.youtube.com/embed/videoseries?list=PLCRMIe5FDPsdL8O_pGZJcK746l_Xg4WvV",
+        "track": "SYSTEM_DESIGN",
+        "phaseTag": "Phase 4 - System Design",
+        "description": "High-level system design fundamentals: load balancers, consistent hashing, caching strategies, and database sharding.",
+        "status": "in_progress",
+        "tags": [
+          "System Design",
+          "HLD",
+          "Scalability",
+          "Microservices"
+        ]
+      },
+      {
+        "id": "res_sd_2",
+        "title": "Design a Distributed Rate Limiter (Token Bucket vs Leaky Bucket)",
+        "channel": "Gaurav Sen",
+        "embedUrl": "https://www.youtube.com/embed/FU4Wisl4544",
+        "track": "SYSTEM_DESIGN",
+        "phaseTag": "Phase 4 - System Design",
+        "description": "Complete architectural breakdown of rate limiting algorithms at scale with Redis and sliding window counters.",
+        "status": "not_started",
+        "tags": [
+          "Rate Limiter",
+          "LLD",
+          "HLD",
+          "Redis"
+        ]
+      },
+      {
+        "id": "res_dsa_dp",
+        "title": "Dynamic Programming Master Series (1D to MCM)",
+        "channel": "take U forward",
+        "embedUrl": "https://www.youtube.com/embed/videoseries?list=PLgUwDviBIf0qUlt5H_kiKGl20_cU8hULP",
+        "track": "DSA",
+        "phaseTag": "Phase 3 - Trees & DP",
+        "description": "Complete dynamic programming series from recursion trees to memoization, tabulation, and space optimization.",
+        "status": "not_started",
+        "tags": [
+          "DSA",
+          "DP",
+          "Dynamic Programming",
+          "Memoization"
+        ]
+      },
+      {
+        "id": "res_kafka_1",
+        "title": "Apache Kafka & Event-Driven Microservices in Spring Boot",
+        "channel": "FreeCodeCamp",
+        "embedUrl": "https://www.youtube.com/embed/SqVfCyfCJqw",
+        "track": "BACKEND",
+        "phaseTag": "Phase 3 - Trees & DP",
+        "description": "Build asynchronous microservices with Spring Cloud, Apache Kafka event streams, and PostgreSQL CQRS patterns.",
+        "status": "not_started",
+        "tags": [
+          "Kafka",
+          "Spring Boot",
+          "Event Driven",
+          "Microservices"
+        ]
+      },
+      {
+        "id": "res_net_1",
+        "title": "Computer Networking Course - Network Protocols Explained",
+        "channel": "FreeCodeCamp",
+        "embedUrl": "https://www.youtube.com/embed/IPvYjXCsTg8",
+        "track": "CS_FUNDAMENTALS",
+        "phaseTag": "Phase 4 - System Design",
+        "description": "TCP/IP model, 3-way handshake, DNS, HTTP/1.1 vs HTTP/2 vs HTTP/3, TLS 1.3 encryption and socket programming.",
+        "status": "not_started",
+        "tags": [
+          "Networking",
+          "TCP/IP",
+          "HTTP",
+          "Sockets"
+        ]
+      }
+    ],
+    "user_1790018214936_1hmwb": [
+      {
+        "id": "res_dsa_1",
+        "title": "Striver A2Z DSA Course - Complete Masterclass Playlist",
+        "channel": "take U forward",
+        "embedUrl": "https://www.youtube.com/embed/videoseries?list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_st8",
+        "track": "DSA",
+        "phaseTag": "Phase 1 - Foundations",
+        "description": "The official master playlist for Striver's A2Z DSA sheet covering Arrays, Trees, Graphs, and DP with intuition.",
+        "status": "in_progress",
+        "tags": [
+          "DSA",
+          "A2Z Sheet",
+          "Arrays",
+          "DP"
+        ]
+      },
+      {
+        "id": "res_sb_1",
+        "title": "Spring Boot 3 + Spring Security 6 with JWT Full Course",
+        "channel": "Amigoscode",
+        "embedUrl": "https://www.youtube.com/embed/KxqlJblhzfI",
+        "track": "BACKEND",
+        "phaseTag": "Phase 1 - Foundations",
+        "description": "In-depth guide to building production-ready Spring Boot 3 APIs with Spring Security 6, JWT filters, and PostgreSQL.",
+        "status": "not_started",
+        "tags": [
+          "Spring Boot",
+          "JWT",
+          "Security",
+          "Java 21"
+        ]
+      },
+      {
+        "id": "res_sb_2",
+        "title": "Spring Data JPA & Hibernate Masterclass",
+        "channel": "Java Brains",
+        "embedUrl": "https://www.youtube.com/embed/videoseries?list=PLqq-6Pq4lTTY5h_m8g8Vv_Xb_sO-l4s7H",
+        "track": "BACKEND",
+        "phaseTag": "Phase 2 - Core Data Structures",
+        "description": "Deep dive into JPA entity mappings, Lazy loading, N+1 query problem, transactions, and HikariCP connection pooling.",
+        "status": "not_started",
+        "tags": [
+          "Spring Data JPA",
+          "Hibernate",
+          "PostgreSQL",
+          "Transactions"
+        ]
+      },
+      {
+        "id": "res_node_1",
+        "title": "Node.js Event Loop, Worker Threads & Concurrency Internals",
+        "channel": "Hussein Nasser",
+        "embedUrl": "https://www.youtube.com/embed/8aGhZQkoFbQ",
+        "track": "CS_FUNDAMENTALS",
+        "phaseTag": "Phase 1 - Foundations",
+        "description": "Comprehensive architectural breakdown of the libuv event loop, phases (timers, I/O, check), and non-blocking I/O.",
+        "status": "watched",
+        "tags": [
+          "Node.js",
+          "Event Loop",
+          "Concurrency",
+          "Libuv"
+        ]
+      },
+      {
+        "id": "res_sd_1",
+        "title": "System Design for Beginners: Architecture & Scaling Fundamentals",
+        "channel": "ByteByteGo",
+        "embedUrl": "https://www.youtube.com/embed/videoseries?list=PLCRMIe5FDPsdL8O_pGZJcK746l_Xg4WvV",
+        "track": "SYSTEM_DESIGN",
+        "phaseTag": "Phase 4 - System Design",
+        "description": "High-level system design fundamentals: load balancers, consistent hashing, caching strategies, and database sharding.",
+        "status": "in_progress",
+        "tags": [
+          "System Design",
+          "HLD",
+          "Scalability",
+          "Microservices"
+        ]
+      },
+      {
+        "id": "res_sd_2",
+        "title": "Design a Distributed Rate Limiter (Token Bucket vs Leaky Bucket)",
+        "channel": "Gaurav Sen",
+        "embedUrl": "https://www.youtube.com/embed/FU4Wisl4544",
+        "track": "SYSTEM_DESIGN",
+        "phaseTag": "Phase 4 - System Design",
+        "description": "Complete architectural breakdown of rate limiting algorithms at scale with Redis and sliding window counters.",
+        "status": "not_started",
+        "tags": [
+          "Rate Limiter",
+          "LLD",
+          "HLD",
+          "Redis"
+        ]
+      },
+      {
+        "id": "res_dsa_dp",
+        "title": "Dynamic Programming Master Series (1D to MCM)",
+        "channel": "take U forward",
+        "embedUrl": "https://www.youtube.com/embed/videoseries?list=PLgUwDviBIf0qUlt5H_kiKGl20_cU8hULP",
+        "track": "DSA",
+        "phaseTag": "Phase 3 - Trees & DP",
+        "description": "Complete dynamic programming series from recursion trees to memoization, tabulation, and space optimization.",
+        "status": "not_started",
+        "tags": [
+          "DSA",
+          "DP",
+          "Dynamic Programming",
+          "Memoization"
+        ]
+      },
+      {
+        "id": "res_kafka_1",
+        "title": "Apache Kafka & Event-Driven Microservices in Spring Boot",
+        "channel": "FreeCodeCamp",
+        "embedUrl": "https://www.youtube.com/embed/SqVfCyfCJqw",
+        "track": "BACKEND",
+        "phaseTag": "Phase 3 - Trees & DP",
+        "description": "Build asynchronous microservices with Spring Cloud, Apache Kafka event streams, and PostgreSQL CQRS patterns.",
+        "status": "not_started",
+        "tags": [
+          "Kafka",
+          "Spring Boot",
+          "Event Driven",
+          "Microservices"
+        ]
+      },
+      {
+        "id": "res_net_1",
+        "title": "Computer Networking Course - Network Protocols Explained",
+        "channel": "FreeCodeCamp",
+        "embedUrl": "https://www.youtube.com/embed/IPvYjXCsTg8",
+        "track": "CS_FUNDAMENTALS",
+        "phaseTag": "Phase 4 - System Design",
+        "description": "TCP/IP model, 3-way handshake, DNS, HTTP/1.1 vs HTTP/2 vs HTTP/3, TLS 1.3 encryption and socket programming.",
+        "status": "not_started",
+        "tags": [
+          "Networking",
+          "TCP/IP",
+          "HTTP",
+          "Sockets"
+        ]
+      }
+    ]
+  },
+  "userPreferences": {
+    "user_demo_1": {
+      "trackFocus": "DSA_INTENSIVE",
+      "difficultyPreference": "MEDIUM_HARD",
+      "presetList": "STRIVER_A2Z",
+      "weeklyTarget": 15,
+      "updatedAt": "2026-09-22T04:03:49.424Z"
+    },
+    "user_1790018214936_1hmwb": {
+      "trackFocus": "BALANCED",
+      "difficultyPreference": "ALL",
+      "presetList": "STRIVER_A2Z",
+      "weeklyTarget": 10,
+      "updatedAt": "2026-09-22T04:04:53.168Z"
+    }
+  },
+  "customLeetcode": {
+    "user_demo_1": [
+      {
+        "id": "lc_cust_1790049829452_1_12v3",
+        "weekNumber": 6,
+        "number": null,
+        "title": "Merge K Sorted Lists",
+        "difficulty": "HARD",
+        "url": "https://leetcode.com/problems/merge-k-sorted-lists/",
+        "tags": [
+          "imported-batch"
+        ],
+        "solved": false,
+        "notes": "",
+        "createdAt": "2026-09-22T04:03:49.452Z"
+      },
+      {
+        "id": "lc_cust_1790049829452_0_rttv",
+        "weekNumber": 6,
+        "number": null,
+        "title": "Find Median From Data Stream",
+        "difficulty": "HARD",
+        "url": "https://leetcode.com/problems/find-median-from-data-stream/",
+        "tags": [
+          "imported-batch"
+        ],
+        "solved": false,
+        "notes": "",
+        "createdAt": "2026-09-22T04:03:49.452Z"
+      },
+      {
+        "id": "lc_cust_1790049829435_ejob",
+        "weekNumber": 4,
+        "number": 42,
+        "title": "Trapping Rain Water",
+        "difficulty": "HARD",
+        "url": "https://leetcode.com/problems/trapping-rain-water/",
+        "tags": [
+          "two-pointers",
+          "monotonic-stack"
+        ],
+        "solved": true,
+        "notes": "",
+        "createdAt": "2026-09-22T04:03:49.435Z",
+        "solvedAt": "2026-09-22T04:03:49.457Z"
+      }
+    ],
+    "user_1790018214936_1hmwb": []
+  }
+}
